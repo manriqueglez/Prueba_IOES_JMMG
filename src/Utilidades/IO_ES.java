@@ -460,7 +460,7 @@ public class IO_ES {
     
     
     /**
-     * Pide una cadena con una longitud maxima
+     * Pide una cadena con una longitud exacta
      *
      * @param longitud
      * @param msg
@@ -474,11 +474,11 @@ public class IO_ES {
             Scanner entrada=new Scanner(System.in);
             cadena = entrada.nextLine();
              
-            if(!(cadena.length() < longitud)){
+            if(!(cadena.length() == longitud)){
                 System.out.println("Error, la longitud maxima es "+longitud+" letras o caracteres");
             }
              
-        } while (!(cadena.length() < longitud));
+        } while (!(cadena.length() == longitud));
  
         return cadena; 
     }
