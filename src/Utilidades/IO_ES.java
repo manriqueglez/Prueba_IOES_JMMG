@@ -460,7 +460,7 @@ public class IO_ES {
     
     
     /**
-     * Pide una cadena con una longitud exacta
+     * Pide una cadena con una longitud dada por el usuario.
      *
      * @param longitud
      * @param msg
